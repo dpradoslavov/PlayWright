@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="index.css">
     <title>Home Page</title>
   </head>
   <body>
-    <header>
-      <h1>Home Page</h1>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home </a></li>
-          <li><a href="./products.html">Products </a></li>
-          <li><a href="./about.html">About </a></li>
+    <header id="main-header">
+      <h1 id="page-title">Home Page</h1>
+      <nav id="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="./products.html" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <div>
-        <h2>Images</h2>
-        <p>test test test</p>
-        <img src="home_page_picture.jpg" alt="Random text" />
-        <img
-          src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
-          alt="Random text"
-        />
+    <main id="main-content">
+      <div id="image-section">
+        <h2 id="sub-title">Images</h2>
+        <p class="text">test test test</p>
+        <img id="local-image" src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="Local image" />
+        <img id="random-image" src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="Random image" />
       </div>
     </main>
-    <footer>
-      <p>&copy; All Rights Reserved</p>
+
+    <footer id="main-footer">
+      <p class="footer-text">&copy; All Rights Reserved</p>
     </footer>
   </body>
 </html>
